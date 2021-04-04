@@ -1,0 +1,31 @@
+.footer {
+  padding: 50px;
+  background-color: cadetblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-size: smaller;
+
+  .menu {
+    &__list {
+      list-style-type: none;
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__item a {
+      display: block;
+      text-decoration: none;
+      font-weight: bold;
+      color: darkolivegreen;
+      margin-top: 20px;
+    }
+
+    &__item a:hover {
+      color: darkgreen;
+    }
+  }
+}

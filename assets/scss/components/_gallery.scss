@@ -1,0 +1,25 @@
+.galery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 100px;
+
+  &__title {
+    margin-bottom: 30px;
+    text-align: center;
+    color: darkolivegreen;
+    font-weight: bold;
+  }
+
+  &__box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  &__img {
+    width: 300px;
+    height: 300px;
+  }
+}
